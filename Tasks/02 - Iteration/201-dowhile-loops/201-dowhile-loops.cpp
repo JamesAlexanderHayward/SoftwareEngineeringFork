@@ -1,18 +1,17 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
-    int i = 0;
-
-    printf("Start while loop\n");
+    int a = 0
+        cout << "Start while loop" << endl;
 
     do
     {
-        printf("i = %d\n", i);
-        i = i + 1;              // Alternatively, write i++;
-    } while (i < 5);            //Repeat if condition is met
-
-    printf("Finished: i = %d\n", i);
+        cout << "a=" << a;
+        a = a--;
+    } while a <= 0;
+    
 }
 
 
