@@ -9,6 +9,8 @@ void displayBanner(int stringLen)
 	cout << endl;
 }
 
+void displayWithBanner(string message)
+
 int main()
 {
 	const string message = "Welcome to Computer Science";

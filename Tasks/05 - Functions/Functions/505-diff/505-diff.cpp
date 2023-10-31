@@ -4,6 +4,8 @@ using namespace std;
 //Function prototypes
 int sub(int u, int v);
 
+int absDiff ()
+
 
 int main()
 {
